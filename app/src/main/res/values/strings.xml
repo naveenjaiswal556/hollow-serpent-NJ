@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VisitorManagement</string>
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string-array name="spinner_options">
+        <item name =" Komal  ">Komal</item>
+        <item name ="Ophilia">Ophilia</item>
+        <item name ="Dinesh">Dinesh</item>
+        <item name ="Devendra">Devendra</item>
+
+    </string-array>
+</resources>

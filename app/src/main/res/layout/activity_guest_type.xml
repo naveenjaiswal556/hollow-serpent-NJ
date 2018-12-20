@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="#000"
+    tools:context=".GuestType">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/ll1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/visitor_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/color91sborange">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VISITOR"
+                    android:padding="20dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="#fff"
+                    android:layout_weight="1"
+                    android:textSize="30sp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/lead_card"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorAccent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:text="91 LEAD"
+                    android:layout_centerInParent="true"
+                    android:textSize="30sp"
+                    android:textColor="#fff"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/ll2"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/day_card"
+            app:cardCornerRadius="20dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/colorAccent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAY PASS"
+                    android:padding="20dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="#fff"
+                    android:layout_weight="1"
+                    android:textSize="30sp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:id="@+id/vendor_card"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/color91sborange">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:layout_centerInParent="true"
+                    android:text="VENDOR"
+                    android:textSize="30sp"
+                    android:textColor="#fff"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
